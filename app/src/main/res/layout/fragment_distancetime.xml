@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:background="#fff"
+    tools:context=".distancetime">
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:src="@drawable/duration"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="10dp"/>
+
+<TextView
+    android:id="@+id/timeArrival"
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1.5"
+    android:textColor="#000"
+    android:gravity="center_horizontal|center"
+android:textSize="20sp"
+
+    android:textAlignment="center"
+    />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".5"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/distancedriver"/>
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="0dp"
+        android:textSize="20sp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:textColor="#000"
+        android:gravity="center_horizontal|center"
+        android:textAlignment="center"
+        />
+
+
+</LinearLayout>
